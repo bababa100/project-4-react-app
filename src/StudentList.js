@@ -10,8 +10,12 @@ function StudentList(props) {
           <Card.Description>{student.registered_courses}</Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <Button>Delete Student</Button>
-          <Button>Edit Student</Button>
+          <Button onClick={() => props.deleteStudent(student.id)}>
+            Delete Student
+          </Button>
+          <Button onClick={() => props.openAndEdit(student)}>
+            Edit Student
+          </Button>
         </Card.Content>
       </Card>
     )
