@@ -15,7 +15,7 @@ const EditStudentModal = (props) => {
             value={props.studentToEdit.name}
             onChange={props.handleEditChange}
           />
-          <Label>Registered Courses</Label>
+          <Label>Registered Courses:</Label>
           <Form.Input
             type="text"
             name="registered_courses"

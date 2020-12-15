@@ -6,22 +6,24 @@ import { Grid } from 'semantic-ui-react'
 import EditStudentModal from './EditStudentModal'
 
 class StudentContainer extends Component {
-  constructor(props) {
-    super(props)
+  // constructor(props) {
+  //   super(props)
 
-    this.state = {
-      students: [],
-      studentToEdit: {
-        name: '',
-        registered_courses: '',
-        email: '',
-        balance_due: '',
-        id: '',
-      },
+  //   this.
 
-      showEditModel: false,
-    }
+  state = {
+    students: [],
+    studentToEdit: {
+      name: '',
+      registered_courses: '',
+      email: '',
+      balance_due: '',
+      id: '',
+    },
+
+    showEditModel: false,
   }
+
   componentDidMount() {
     this.getStudents()
   }
@@ -39,6 +41,45 @@ class StudentContainer extends Component {
     }
   }
 
+  addStudent = async (e, student) => {
+    e.preventDefault()
+    console.log(student)
+    try {
+      //createdstudent variable will store response from Flask API
+      const createdStudentResponse = await axios({
+        method: 'POST',
+        url: process.env.REACT_APP_FLASK_API_URL + '/api/v1/students/',
+        data: student,
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+      //emptying all students that are living in state into a new array
+      //adding student we just created to end of array
+      //the new student which is called parsedResponse.data
+
+      console.log(createdStudentResponse.data.data, ' this is response ')
+      this.setState({
+        students: [...this.state.students, createdStudentResponse.data.data],
+      })
+    } catch (err) {
+      console.log('error', err)
+    }
+  }
+
+  deleteStudent = async (id) => {
+    console.log(id)
+    const deleteStudentResponse = await axios.delete(
+      `${process.env.REACT_APP_FLASK_API_URL}/api/v1/students/${id}`,
+    )
+    console.log(deleteStudentResponse)
+    //Remove item the db has deleted and remove from state
+    // Then make the delete request, then remove student from states array
+    this.setState({
+      students: this.state.students.filter((student) => student.id !== id),
+    })
+    console.log(deleteStudentResponse, 'response from Flask server')
+  }
   openAndEdit = (studentFromTheList) => {
     console.log(studentFromTheList, ' studentToEdit ')
 
@@ -86,7 +127,13 @@ class StudentContainer extends Component {
   }
 
   render() {
+    console.log(this.state)
     return (
+      // <>
+      //   <StudentList students={this.state.students} />
+      //   <CreateStudentForm addStudent={this.addStudent} />
+      // </>
+
       <Grid
         columns={2}
         divided

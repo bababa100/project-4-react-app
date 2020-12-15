@@ -45,9 +45,9 @@ class CreateStudentForm extends Component {
 
           <Label>Balance Due:</Label>
           <Form.Input
-            type="text"
+            type="boolean"
             name="balance_due"
-            value={this.state.email}
+            value={this.state.balance_due}
             onChange={this.handleChange}
           />
           <Button type="Submit">Create Student</Button>
