@@ -50,7 +50,9 @@ class CreateStudentForm extends Component {
             value={this.state.balance_due}
             onChange={this.handleChange}
           />
-          <Button type="Submit">Create Student</Button>
+          <Button color="blue" type="Submit">
+            Create Student
+          </Button>
         </Form>
       </Segment>
     )

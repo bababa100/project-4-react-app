@@ -1,10 +1,12 @@
 .App {
   text-align: center;
+  background-color: blue;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+  background-color: blue;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -40,6 +42,57 @@ body {
   background-color: rgb(132, 210, 180);
 }
 
-Button {
+/* Button {
   color: green;
+} */
+
+h3 {
+  color: blue;
+}
+
+Meta {
+  color: 'green';
+}
+
+button {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+
+  cursor: pointer;
+  margin: 5px;
+  transition: width 2s;
+}
+button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+App {
+  background-image: url(https://media0.giphy.com/media/KZFrf9JusXzmpnPsT6/200w.webp?cid=ecf05e47u728qoe0u1v1dq1dyhxdbxuviy1lh5zs3uopbyyg&rid=200w.webp),
+    url(https://media1.giphy.com/media/l4KihuqeuJEi9qLSM/200w.webp?cid=ecf05e47u728qoe0u1v1dq1dyhxdbxuviy1lh5zs3uopbyyg&rid=200w.webp);
+  background-color: #d9499a;
+}
+
+Card {
+  background-color: #d9499a;
+}
+
+h4 {
+  font-family: 'Aller';
+  color: green;
+  font-weight: 900;
+}
+
+h1 {
+  text-align: center;
+  font-size: 800px;
+  color: orange;
 }

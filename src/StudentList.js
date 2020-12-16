@@ -9,7 +9,9 @@ function StudentList(props) {
           <Image
             floated="right"
             size="mini"
-            src="https://tse1.mm.bing.net/th?id=OIP.B82knUJwJLqXndMYvreoLwHaFP&pid=Api&P=0&w=237&h=169"
+            src="https://tse1.mm.bing.net/th?id=OIP.dWmHrp7uXx6xx0WmhfaA1AHaF-&pid=Api&P=0&w=199&h=162"
+            alt="Student Pic"
+            //style="width:100px;height:200px; "
             wrapped
             ui={false}
           />
@@ -18,17 +20,24 @@ function StudentList(props) {
             <Card.Meta>{student.email}</Card.Meta> <br></br>
           </Card.Header>
           <Card.Description>
-            <h3> Enrolled Courses: </h3>
+            <h3> Enrolled Course: </h3>
             <b> {student.registered_courses}</b>
-            {student.balance_due}
-            <br></br>
           </Card.Description>
         </Card.Content>
         <Card.Content extra>
-          <Button onClick={() => props.deleteStudent(student.id)}>
+          <Button
+            basic
+            color="red"
+            onClick={() => props.deleteStudent(student.id)}
+          >
             Delete Student
           </Button>
-          <Button onClick={() => props.openAndEdit(student)}>
+          <Button
+            Button
+            basic
+            color="green"
+            onClick={() => props.openAndEdit(student)}
+          >
             Edit Student
           </Button>
         </Card.Content>
