@@ -27,7 +27,7 @@ class CreateStudentForm extends Component {
             onChange={this.handleChange}
           />
 
-          <Label>Registered Courses:</Label>
+          <Label>Enrolled Courses:</Label>
           <Form.Input
             type="text"
             name="registered_courses"

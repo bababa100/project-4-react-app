@@ -4,7 +4,7 @@ import StudentList from './StudentList'
 import CreateStudentForm from './CreateStudentForm'
 import { Grid } from 'semantic-ui-react'
 import EditStudentModal from './EditStudentModal'
-;<h1> The Teacher Genie </h1>
+
 class StudentContainer extends Component {
   // constructor(props) {
   //   super(props)

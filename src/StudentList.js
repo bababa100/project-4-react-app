@@ -22,7 +22,7 @@ function StudentList(props) {
             <Card.Meta>{student.email}</Card.Meta> <br></br>
           </Card.Header>
           <Card.Description>
-            <h3> Enrolled Course: </h3>
+            <h3> Enrolled Courses: </h3>
             <b> {student.registered_courses}</b>
           </Card.Description>
         </Card.Content>
