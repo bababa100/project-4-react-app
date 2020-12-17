@@ -75,19 +75,19 @@ button span {
   transition: 0.5s;
 }
 
-App {
+/* App {
   background-image: url(https://media0.giphy.com/media/KZFrf9JusXzmpnPsT6/200w.webp?cid=ecf05e47u728qoe0u1v1dq1dyhxdbxuviy1lh5zs3uopbyyg&rid=200w.webp),
     url(https://media1.giphy.com/media/l4KihuqeuJEi9qLSM/200w.webp?cid=ecf05e47u728qoe0u1v1dq1dyhxdbxuviy1lh5zs3uopbyyg&rid=200w.webp);
   background-color: #d9499a;
-}
+} */
 
-Card {
+/* Card {
   background-color: #d9499a;
-}
+} */
 
 h4 {
   font-family: 'Aller';
-  color: green;
+  color: hotpink;
   font-weight: 900;
 }
 

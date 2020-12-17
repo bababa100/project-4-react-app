@@ -16,7 +16,9 @@ function StudentList(props) {
             ui={false}
           />
           <Card.Header>
-            <Card.Header>{student.name}</Card.Header>
+            <Card.Header>
+              <h1>{student.name}</h1>
+            </Card.Header>
             <Card.Meta>{student.email}</Card.Meta> <br></br>
           </Card.Header>
           <Card.Description>

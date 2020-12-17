@@ -109,6 +109,7 @@ class StudentContainer extends Component {
         this.state.studentToEdit,
       )
       console.log(editResponse, ' parsed edit')
+      alert('Student Info Edited Successfully')
 
       const newStudentArrayWithEdit = this.state.students.map((student) => {
         if (student.id === editResponse.data.data.id) {
@@ -129,17 +130,13 @@ class StudentContainer extends Component {
 
   render() {
     console.log(this.state)
-    return (
-      // <>
-      //   <StudentList students={this.state.students} />
-      //   <CreateStudentForm addStudent={this.addStudent} />
-      // </>
 
+    return (
       <Grid
         columns={2}
         divided
         textAlign="center"
-        style={{ height: '100%' }}
+        style={{ height: '50%' }}
         verticalAlign="top"
         stackable
       >
