@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 # 1. Getting Started with Create React App
 
@@ -6,7 +6,7 @@
 
 # The Teacher Genie App - About The Project
 
-> > > > > > > 761631242e1ea60cf0dee8ad5b67c82c4d4e2b05
+
 
 This is an application to help organize instructors who manage virtual/online classes. With many learning programs going virtual, there are more opportunities for entrepreneurs to start their own business as instructors. The Teacher Genie app helps keep virtual instructors organized.
 
@@ -114,10 +114,10 @@ Any contributions you make are **greatly appreciated**.
 
 ## 9.1 Testing (Browser and Postman)
 
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-11-24%20at%209.17.23%20AM.png?raw=true)
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-03%20at%202.48.21%20PM.png?raw=true)
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-14%20at%207.25.35%20AM.png?raw=true)
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-15%20at%203.09.24%20PM.png?raw=true)
+![Testing - Main](./images/Postman-Get.png)
+![Testing - Main](./images/pgadmin-database-students.png)
+![Testing - Main](./images/pgadmin-database.png)
+![Testing - Main](./images/Screen Shot 2020-12-15 at 3.09.24 PM.png)
 
 # 10. User Stories
 
