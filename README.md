@@ -94,7 +94,9 @@ Any contributions you make are **greatly appreciated**.
 
 # Approach & Design
 ## Wireframes
-https://github.com/bababa100/Project4-Wireframe/blob/master/TeacherGenie_Wireframe.png
+
+
+![Wireframe - Main](Screen Shot 2020-11-24 at 9.17.23 AM.png) 
 
 
 ## Testing (Browser and Postman)
