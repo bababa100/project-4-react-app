@@ -2,7 +2,7 @@
 
 This is an application to help organize instructors who manage virtual/online classes.  With many learning programs going virtual, there are more opportunities for entrepreneurs to start their own business as instructors.  The Teacher Genie app helps keep virtual instructors organized.  
 
-## 2. Built With
+## 2. Technology Used
 
 The project involves two applications, a React frontend to communicate with a back API.  The backend API was built using Flask with Postgres + PeeWee ORM.
 
