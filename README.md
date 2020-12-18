@@ -4,7 +4,7 @@ This is an application to help organize instructors who manage virtual/online cl
 
 ## 2. Built With
 
-This project was build using 2 apps, a React frontend to communicate with a back API.  The backend API was built using Flask with Postgres + PeeWee ORM.
+The project involves two applications, a React frontend to communicate with a back API.  The backend API was built using Flask with Postgres + PeeWee ORM.
 
 * HTML, CSS, JavaScript, Google Chrome
 * Pewee ORM for layer intergration with Flask
