@@ -1,10 +1,4 @@
-
-
-# 1. Getting Started with Create React App
-
-=======
-
-# The Teacher Genie App - About The Project
+# 1. The Teacher Genie App - About The Project
 
 
 
