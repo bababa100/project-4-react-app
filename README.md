@@ -94,15 +94,15 @@ Any contributions you make are **greatly appreciated**.
 
 # 9. Approach & Design
 ## 9.1 Wireframes
-https://github.com/bababa100/Project4-Wireframe/blob/master/TeacherGenie_Wireframe.png
+![Wireframe - Main](./images/Wireframe.png)
 
 
 ## 9.2 Testing (Browser and Postman)
 
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-11-24%20at%209.17.23%20AM.png?raw=true)
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-03%20at%202.48.21%20PM.png?raw=true)
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-14%20at%207.25.35%20AM.png?raw=true)
-(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-15%20at%203.09.24%20PM.png?raw=true)
+![Testing - Main](./images/Postman-Get.png)
+![Testing - Main](./images/pgadmin-database-students.png)
+![Testing - Main](./images/pgadmin-database.png)
+![Testing - Main](./images/Screen Shot 2020-12-15 at 3.09.24 PM.png)
 
 
 
