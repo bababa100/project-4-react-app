@@ -122,7 +122,7 @@ https://github.com/bababa100/Project4-Wireframe/blob/master/TeacherGenie_Wirefra
 # 11. MVP Compliance
 ## 11.1 Base Requirements
 
-* 2 apps: React frontend app and Flask with Postgres + PeeWee ORM backend.  Status: Complete
+* Build 2 apps: React frontend app and Flask with Postgres + PeeWee ORM backend.  Status: Complete
 * Build a complete product. Status: Complete
 * Implement thoughtful user stories. Status: Complete
 * Deployed Online. Status: Complete
