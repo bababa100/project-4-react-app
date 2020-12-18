@@ -1,8 +1,8 @@
-# The Teacher Genie App - About The Project
+# 1. The Teacher Genie App - About The Project
 
 This is an application to help organize instructors who manage virtual/online classes.  With many learning programs going virtual, there are more opportunities for entrepreneurs to start their own business as instructors.  The Teacher Genie app helps keep virtual instructors organized.  
 
-## Built With
+## 2. Built With
 
 This project was build using 2 apps, a React frontend to communicate with a back API.  The backend API was built using Flask with Postgres + PeeWee ORM.
 
@@ -16,7 +16,7 @@ This project was build using 2 apps, a React frontend to communicate with a back
 * [Postman](https://www.postman.com/)
 * [pgAdmin](https://www.pgadmin.org/)
 
-## Getting Started
+## 3. Getting Started
 
 Run npm start to run the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -26,7 +26,7 @@ cd flask-peewee
 python setup.py install
 pip install flask-peewee
 
-### Prerequisites
+### 3.1 Prerequisites
 * npm
   ```sh
   npm install npm@latest -g
@@ -40,7 +40,7 @@ pip install flask-peewee
 You can run the tests using the test-runner:
 `python setup.py test `
 
-### Installation
+### 3.2 Installation
 
 1.  Clone the repo
    ```sh
@@ -51,7 +51,7 @@ You can run the tests using the test-runner:
    npm install
    ```
 
-## Usage
+## 4. Usage
 
 Used by professionals and organizers:
 Best used by teaching professionals who work remotely.
@@ -62,21 +62,21 @@ Managing subscriptions
 
 [![Virtual Classrooms Screen Shot][product-screenshot]] (https://az877327.vo.msecnd.net/~/media/images/news/2019/q2/20180912_bcn_0042_preview%20jpg.jpg?w=800&la=en&v=1)
 
-## Roadmap
+## 5. Roadmap
 See the [open issues](https://github.com/bababa100/project-4-react-app/actions) for a list of proposed features (and known issues).
 
-# Technical Requirements
-## Problems To Resolve
+# 6. Technical Requirements
+## 6.1 Problems To Resolve
 With many teachers and professionals seeking additional employment opportunities, the Teacher Genie app allows them to take control of their pursuits.
 Teacher Genie helps you organize classes and students easily. Provides fast access to students, balance status, and contact information with just a few taps.  
 
-## UI Solutioning 
+## 7. UI Solutioning 
 
 Used HTML, CSS, JavaScript, Google Chrome, and Peewee Framework with react-materialize and semantic-UI-CSS for styling.
 
 
 
-### Contributing
+### 7.1 Contributing
 
 Any contributions you make are **greatly appreciated**.
 
@@ -86,18 +86,18 @@ Any contributions you make are **greatly appreciated**.
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-# Learning Experience
+# 8. Learning Experience
 * Used Postgres and PGadmin as a database to store the information captured from Front-end inputs.
 * Worked with Semantic UI as a development framework that helps create beautiful, responsive layouts using human-friendly HTML.
 * Used Flask for backend - Python micro web framework.
 * Built Virtual Environment for compatibility with multiple versions of Python.
 
-# Approach & Design
-## Wireframes
+# 9. Approach & Design
+## 9.1 Wireframes
 https://github.com/bababa100/Project4-Wireframe/blob/master/TeacherGenie_Wireframe.png
 
 
-## Testing (Browser and Postman)
+## 9.2 Testing (Browser and Postman)
 
 (https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-11-24%20at%209.17.23%20AM.png?raw=true)
 (https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-03%20at%202.48.21%20PM.png?raw=true)
@@ -106,7 +106,7 @@ https://github.com/bababa100/Project4-Wireframe/blob/master/TeacherGenie_Wirefra
 
 
 
-# User Stories
+# 10. User Stories
 1. As a user, I want to add a student to a course, so that I know what students belong to a course: Completed
 2. As a user, I want to be able to input contact information, to retrieve on demand: Completed
 3. Once a student is selected, I should be able to see contact details: Completed
@@ -119,35 +119,35 @@ https://github.com/bababa100/Project4-Wireframe/blob/master/TeacherGenie_Wirefra
 10. As a user, I should be able to create a new student from the list Status: Completed
 11. As a user, I should be able to search by contact information: Future Update
 
-# MVP Compliance
-## Base Requirements
+# 11. MVP Compliance
+## 11.1 Base Requirements
 
 * 2 apps: React frontend app and Flask with Postgres + PeeWee ORM backend.  Status: Complete
 * Build a complete product. Status: Complete
 * Implement thoughtful user stories. Status: Complete
 * Deployed Online. Status: Complete
 
-## Collaboration
+## 12. Collaboration
 
 * In compliance with full-stack development requirement.  This project was completed by solo team member.  
 
-## Deployment
+## 13. Deployment
 
 * Your React app deployed to Heroku. 
 Front End App:  https://teacher-genie-frontend.herokuapp.com/
 Backend App: https://teacher-genie-backend.herokuapp.com/api/v1/students/
-## License
+## 14. License
 
 License is not yet applied for. Future changes will be shown in `LICENSE`section.
 
-## Contact
+## 15. Contact
 
 
 David Lane - Twitter [@david_lane](https://twitter.com/david_lane) 
 
 Project Link: [(https://github.com/bababa100/project-4-react-app/actions)]
 
-## Acknowledgements
+## 16. Acknowledgements
 
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Canva](https://www.canva.com/)
@@ -155,7 +155,7 @@ Project Link: [(https://github.com/bababa100/project-4-react-app/actions)]
 * [wiki How](https://www.wikihow.com/)
 * [Design Bombs](https://www.designbombs.com/)
 
-# Unsolved Issue & Future Updates 
+# 17. Unsolved Issue & Future Updates 
 An issue with the "balance due" information stopped showing on UI. This will be updated in the future.
 Cards will be made smaller to fit more on top-level on the screen.  The Create Student form will be made smaller to fit more student information at top level.  
 
