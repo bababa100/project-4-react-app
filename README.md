@@ -129,7 +129,7 @@ Any contributions you make are **greatly appreciated**.
 
 ## 12. Collaboration
 
-* In compliance with full-stack development requirement.  This project was completed by solo team member.  
+* In compliance with full-stack development requirement, this project was completed by solo team member.  
 
 ## 13. Deployment
 
