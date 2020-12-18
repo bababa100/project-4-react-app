@@ -94,9 +94,16 @@ Any contributions you make are **greatly appreciated**.
 
 # Approach & Design
 ## Wireframes
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
 https://github.com/bababa100/Project4-Wireframe/blob/master/TeacherGenie_Wireframe.png
+
+
+## Testing (Browser and Postman)
+
+(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-11-24%20at%209.17.23%20AM.png?raw=true)
+(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-03%20at%202.48.21%20PM.png?raw=true)
+(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-14%20at%207.25.35%20AM.png?raw=true)
+(https://github.com/bababa100/Project4_Testing-Pics/blob/master/Screen%20Shot%202020-12-15%20at%203.09.24%20PM.png?raw=true)
+
 
 # User Stories
 1. As a user, I want to add a student to a course, so that I know what students belong to a course: Completed
@@ -137,7 +144,7 @@ License is not yet applied for. Future changes will be shown in `LICENSE`section
 
 David Lane - [@david_lane](https://twitter.com/david_lane) 
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/bababa100/project-4-react-app/actions)
+Project Link: [(https://github.com/bababa100/project-4-react-app/actions)]
 
 ## Acknowledgements
 
